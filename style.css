@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(92, 17, 162);
+    font-size: 30px;
+    background-image: url(imagine\ turbo\ webp\ .webp);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    margin: 30px;
+    color: rgb(200, 17, 151);
+}
+.container{
+    margin:auto;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(68, 33, 101, 0.395);
+    border-radius: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.468);
+    box-shadow: inset 0px 0px 42px 2px gray
+                ,0px 0px 18px 2px black;
+}
+.box{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+input{
+    line-height: 6vh;
+    width: 60vw;
+    border-radius: 7px;
+    font-size: 30px;
+
+}
+.button{
+    padding: 10px;
+    
+}
+button{
+    line-height: 6vh;
+    min-width: 15vw;
+    color: gray;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: rgb(127, 255, 170);
+}
+.output{
+    width: 100%;
+    height: 60%;
+}
+.qrOutput{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
