@@ -85,3 +85,16 @@ button{
     width: 300px;
     margin: auto;
 }
+.download{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(127, 255, 170);
+    line-height: 6vh;
+    min-width: 15vw;
+    visibility: hidden;
+}
+.downloadLink{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
